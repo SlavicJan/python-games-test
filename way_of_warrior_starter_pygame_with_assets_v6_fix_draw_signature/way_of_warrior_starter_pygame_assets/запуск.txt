@@ -1,0 +1,8 @@
+Вариант B (в терминале, стабильно):
+
+.\.venv\Scripts\python.exe .\main.py
+
+
+Вариант C (если прям хочешь activation в PowerShell):
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
